@@ -1,0 +1,30 @@
+{
+  "name": "proto-angry-birds-01",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "AngryBirds": {
+        "$path": "src/shared/AngryBirds"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameSetup": {
+        "$path": "src/server/GameSetup.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "AngryBirds": {
+          "$path": "src/client/AngryBirds"
+        },
+        "AngryBirdsClient": {
+          "$path": "src/client/AngryBirdsClient.client.luau"
+        }
+      }
+    }
+  }
+}
